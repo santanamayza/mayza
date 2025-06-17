@@ -1,0 +1,148 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Campo & Cidade em Festa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #fff8e1;
+      color: #3e2723;
+    }
+
+    header {
+      background: linear-gradient(to right, #ffcc80, #ffb74d);
+      padding: 2rem 1rem;
+      text-align: center;
+      border-bottom: 5px dashed #ff6f00;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #5d4037;
+    }
+
+    nav {
+      background-color: #ffe0b2;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #e65100;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff3e0;
+      border-radius: 16px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #bf360c;
+    }
+
+    .event-info {
+      background-color: #ffe082;
+      padding: 1rem;
+      border-left: 6px solid #f57c00;
+      margin: 1rem 0;
+      border-radius: 8px;
+    }
+
+    .banner {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .banner img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 12px;
+    }
+
+    footer {
+      background-color: #ffb74d;
+      color: #4e342e;
+      text-align: center;
+      padding: 1rem;
+      border-top: 5px dashed #ef6c00;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Campo & Cidade em Festa</h1>
+    <p>Celebrando nossas raízes, tradições e união</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#atividades">Atividades</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>🌿 Sobre o Evento</h2>
+    <p>
+      A festa “Campo & Cidade em Festa” é um encontro vibrante que une a sabedoria do campo com a modernidade da cidade.
+      É um espaço de troca, aprendizado, e celebração das culturas que fazem o Brasil ser tão rico e diverso.
+    </p>
+    <div class="event-info">
+      <strong>Data:</strong> 27 de Julho de 2025<br>
+      <strong>Local:</strong> Praça Central da Cidade + Feira Agrícola Comunitária
+    </div>
+  </section>
+
+  <section id="atividades">
+    <h2>🎪 Atividades Imperdíveis</h2>
+    <ul>
+      <li>Dança de quadrilha e forró ao vivo</li>
+      <li>Degustação de comidas típicas</li>
+      <li>Exposição de produtos do campo</li>
+      <li>Roda de conversa sobre agricultura urbana</li>
+    </ul>
+  </section>
+
+  <section class="banner" id="galeria">
+    <h2>📷 Galeria</h2>
+    <img src="https://via.placeholder.com/600x300?text=Festa+do+Campo+e+Cidade" alt="Festa do Campo e Cidade">
+  </section>
+
+  <section id="contato">
+    <h2>📞 Contato</h2>
+    <p>Quer expor, participar ou saber mais? Envie um e-mail para: <strong>conexao@festacampocidade.com.br</strong></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Campo & Cidade em Festa. Feito com alegria e união!
+  </footer>
+
+</body>
+</html>
